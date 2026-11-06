@@ -19,11 +19,11 @@ for(const locale of ['en','ja']){
  html=html.replace(/(<meta property="og:url" content=")[^"]+/, '$1'+base+locale+'/');
  html=html.replace('content="ko_KR"','content="'+(locale==='en'?'en_US':'ja_JP')+'"');
  html=html.replace(/ aria-current="page"/g,'').replace('data-locale-link="'+locale+'"','data-locale-link="'+locale+'" aria-current="page"');
- html=html.replace(/(<script src="i18n\.js\?v=\d+">)/,'<script src="locales/'+locale+'.js?v=55"></script>\n  $1');
+ html=html.replace(/(<script src="i18n\.js\?v=\d+">)/,'<script src="locales/'+locale+'.js?v=56"></script>\n  $1');
  html=html.replace(/(<script type="application\/ld\+json">)([\s\S]*?)(<\/script>)/,(_,open,json,close)=>{
   const data=JSON.parse(json);data['@id']=base+locale+'/#game';data.name=translate('Coffee Marble 커피마블');data.alternateName=locale==='ja'?['Coffee Marble','コーヒーマーブル']:['Coffee Marble'];data.url=base+locale+'/';data.inLanguage=locale;data.description=translate(source.match(/<meta name="description" content="([^"]+)"/)[1]);return open+'\n'+JSON.stringify(data,null,2)+'\n  '+close;
  });
- if(locale==='ja')html=html.replace('  <link rel="stylesheet" href="styles.css?v=53">','  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap">\n  <link rel="stylesheet" href="styles.css?v=53">');
+ if(locale==='ja')html=html.replace(/(<link rel="stylesheet" href="styles\.css\?v=\d+">)/,'<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap">\n  $1');
  fs.mkdirSync(path.join(root,locale),{recursive:true});fs.writeFileSync(path.join(root,locale,'index.html'),html);
 }
 const urls=['', 'en/', 'ja/'];

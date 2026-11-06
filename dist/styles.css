@@ -351,6 +351,21 @@ body.bean-mode .footer-support:hover { color: #fff0d8; border-color: #d0a06d; ba
 .footer-languages a[aria-current="page"] { color:#85532e; background:#edbd7426; font-weight:700; }
 .footer-languages a:focus-visible { outline:2px solid #a87444; outline-offset:2px; }
 #languageStatus:empty { display:none; }
+.header-home { display:inline-flex; align-items:center; justify-content:center; gap:6px; min-height:36px; padding:7px 12px; border:1px solid #ead8bc; border-radius:11px; background:#fff8eb; color:#90613b; font:inherit; font-size:12px; font-weight:700; cursor:pointer; white-space:nowrap; flex:none; touch-action:manipulation; }
+.header-home svg { width:18px; height:18px; flex:none; }
+.header-home:hover { background:#ffedcb; border-color:#d6ad79; }
+.header-home:focus-visible { outline:2px solid #a87444; outline-offset:3px; }
+body.bean-mode .header-home { color:#f7dfbd; background:#6a4230; border-color:#a77b55; }
+body.bean-mode .header-home:hover { background:#80543c; }
+@media(max-width:600px) {
+  .topbar-actions .local-badge { display:none; }
+  .header-home { min-height:32px; padding:6px 9px; font-size:11px; }
+  body.race-active .topbar { height:32px; }
+}
+@media(max-width:420px) {
+  .header-home { width:34px; padding:6px; }
+  .header-home .home-label { display:none; }
+}
 body.bean-mode .footer-languages a[aria-current="page"] { color:#ffe0ae; background:#edbd7426; }
 html:lang(ja) body { font-family:'DM Sans','Noto Sans JP','Gowun Dodum',sans-serif; }
 html:lang(ja) .brand { font-family:'Jua','Noto Sans JP',sans-serif; }

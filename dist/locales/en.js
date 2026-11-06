@@ -511,5 +511,7 @@ window.MarbleMessages = {
   "Coffee Marble(커피마블)은 커피내기나 점심내기에서 당첨자를 정할 때 쓰는 무료 구슬게임 사이트예요. 이름을 입력하고 코스를 고르면 구슬 레이스를 보며 결과를 확인할 수 있어요. 로그인이나 설치 없이 PC·모바일 브라우저에서 바로 시작할 수 있어요.": "Coffee Marble is a free online marble racing game for deciding who buys coffee or lunch. Enter names, choose a course and watch the marble race decide the result. Play in your desktop or mobile browser with no sign-up or installation.",
   "구슬 추첨·구슬 룰렛은 어떻게 사용하나요?": "How do I use the marble draw or marble roulette?",
   "참가자 이름을 붙여넣고 당첨 등수와 맵을 선택한 뒤 경주를 시작하세요. 구슬 경주에서 정해진 등수로 도착한 구슬의 주인이 당첨돼요. 커피내기·점심내기, 모임의 벌칙 정하기나 당번 정하기에 활용할 수 있어요.": "Paste player names, choose the winning place and a map, then start the race. The owner of the marble finishing in that place is selected. Use it for coffee or lunch draws, group forfeits or choosing whose turn it is.",
-  "이름 추첨에 쓸 참가자와 구슬 수는 어떻게 정하나요?": "How do I set names and marble counts for a draw?"
+  "이름 추첨에 쓸 참가자와 구슬 수는 어떻게 정하나요?": "How do I set names and marble counts for a draw?",
+  "홈": "Home",
+  "홈으로 가기": "Go home"
 };

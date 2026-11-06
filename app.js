@@ -550,6 +550,14 @@
   }
 
   $('#startRace').addEventListener('click', setUpRace);
+  function goHome(event) {
+    event.preventDefault();
+    if(game)game.paused=true;
+    cancelAnimationFrame(frameId);frameId=0;previousFrame=0;accumulator=0;
+    setStage('setup');
+  }
+  $('#homeButton').addEventListener('click', goHome);
+  $('.brand').addEventListener('click', goHome);
   $('#changeRaceSetup').addEventListener('click', () => setStage('map'));
   $('#restartDuringRace').addEventListener('click', setUpRace);
   $('#rematch').addEventListener('click', setUpRace);
