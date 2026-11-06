@@ -504,5 +504,12 @@ window.MarbleMessages = {
   "☄ 혜성 질주를 발견했어요": "☄ You discovered Comet Rush",
   "언어 선택": "Language",
   "한국어": "한국어",
-  "언어를 변경하려면 이 탭의 브라우저 저장소를 허용해 주세요. 입력한 명단은 유지됩니다.": "Allow browser storage in this tab to switch languages while keeping your player list."
+  "언어를 변경하려면 이 탭의 브라우저 저장소를 허용해 주세요. 입력한 명단은 유지됩니다.": "Allow browser storage in this tab to switch languages while keeping your player list.",
+  "Coffee Marble 커피마블 | 무료 구슬게임·커피내기": "Coffee Marble | Free Marble Race & Random Picker",
+  "커피내기·점심내기에 쓰는 무료 구슬게임 사이트, 커피마블. 이름을 입력해 구슬 추첨·구슬 룰렛을 즐기세요. 로그인·설치 없이 PC와 모바일에서 최대 1,000개 구슬로 경주하고 당첨 등수를 직접 정할 수 있어요.": "A free online marble racing game for coffee bets, lunch draws and picking a winner. Paste names, choose a winning place and race up to 1,000 marbles on desktop or mobile. No sign-up or installation.",
+  "커피내기·점심내기를 위한 무료 구슬게임": "A free marble race for coffee and lunch draws",
+  "Coffee Marble(커피마블)은 커피내기나 점심내기에서 당첨자를 정할 때 쓰는 무료 구슬게임 사이트예요. 이름을 입력하고 코스를 고르면 구슬 레이스를 보며 결과를 확인할 수 있어요. 로그인이나 설치 없이 PC·모바일 브라우저에서 바로 시작할 수 있어요.": "Coffee Marble is a free online marble racing game for deciding who buys coffee or lunch. Enter names, choose a course and watch the marble race decide the result. Play in your desktop or mobile browser with no sign-up or installation.",
+  "구슬 추첨·구슬 룰렛은 어떻게 사용하나요?": "How do I use the marble draw or marble roulette?",
+  "참가자 이름을 붙여넣고 당첨 등수와 맵을 선택한 뒤 경주를 시작하세요. 구슬 경주에서 정해진 등수로 도착한 구슬의 주인이 당첨돼요. 커피내기·점심내기, 모임의 벌칙 정하기나 당번 정하기에 활용할 수 있어요.": "Paste player names, choose the winning place and a map, then start the race. The owner of the marble finishing in that place is selected. Use it for coffee or lunch draws, group forfeits or choosing whose turn it is.",
+  "이름 추첨에 쓸 참가자와 구슬 수는 어떻게 정하나요?": "How do I set names and marble counts for a draw?"
 };
